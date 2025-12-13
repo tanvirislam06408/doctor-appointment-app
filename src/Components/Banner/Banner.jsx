@@ -2,7 +2,7 @@ import React from 'react';
 import bannerimg from '../../assets/banner-img-1.png'
 const Banner = () => {
     return (
-        <div className=' min-w-5xl mx-auto p-36'>
+        <div className='min-w-5xl mx-auto p-36'>
           <div className='border-white border-2 bg-gradient-to-b from-gray-200 to-white rounded-2xl p-10'>
               <div className='items-center content-center text-center space-y-10'>
                 <h1 className='text-5xl font-extrabold  '>Dependable Care, Backed by Trusted  <br />Professionals.</h1>
@@ -29,7 +29,7 @@ const Banner = () => {
             </div>
             <div className='md:flex justify-center p-8 gap-6'>
                 <img className='w-[520px] h-auto object-contain'  src={bannerimg} alt="" />
-                <img className='w-[520px] h-auto object-contain' src={bannerimg} alt="" />
+                <img className='w-[520px] md:invisible lg:visible h-auto object-contain' src={bannerimg} alt="" />
             </div>
           </div>
         </div>

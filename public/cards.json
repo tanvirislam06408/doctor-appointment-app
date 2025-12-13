@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Total Doctors",
+    "count": 199,
+    "suffix": "+",
+    "icon": "doctor",
+    "description": "Total Doctors"
+  },
+  {
+    "id": 2,
+    "title": "Total Reviews",
+    "count": 467,
+    "suffix": "+",
+    "icon": "review",
+    "description": "Total Reviews"
+  },
+  {
+    "id": 3,
+    "title": "Patients",
+    "count": 1900,
+    "suffix": "+",
+    "icon": "patients",
+    "description": "Patients"
+  },
+  {
+    "id": 4,
+    "title": "Total Staffs",
+    "count": 300,
+    "suffix": "+",
+    "icon": "staff",
+    "description": "Total Staffs"
+  }
+]
