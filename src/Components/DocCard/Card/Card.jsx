@@ -5,9 +5,9 @@ const Card = ({doctor}) => {
 const {name,image,badge,experience_years,education,registration_number}=doctor;
     
     return (
-      <div className="card bg-base-100 w-96 shadow-sm">
+      <div className="card bg-base-100 w-96 shadow-sm p-5">
   <figure className=''>
-    <img
+    <img className='max-w-100% max-h-52'
       src={docimg}
       alt="Shoes" />
   </figure>

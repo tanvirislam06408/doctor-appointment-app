@@ -2,8 +2,8 @@ import React from 'react';
 import bannerimg from '../../assets/banner-img-1.png'
 const Banner = () => {
     return (
-        <div className='min-w-5xl mx-auto p-36'>
-          <div className='border-white border-2 bg-gradient-to-b from-gray-200 to-white rounded-2xl p-10'>
+        <div className='max-w-5xl mx-auto border'>
+          <div className='border-white border-2 lg:p-7  from-gray-200 to-white rounded-2xl md:p-10'>
               <div className='items-center content-center text-center space-y-10'>
                 <h1 className='text-5xl font-extrabold  '>Dependable Care, Backed by Trusted  <br />Professionals.</h1>
                 <h4 className='text-xl font-medium opacity-75'>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience. Whether it's a <br /> routine checkup or urgent consultation, book appointments in minutes and receive quality care you can trust.</h4>
@@ -27,9 +27,9 @@ const Banner = () => {
                 </div>
                 
             </div>
-            <div className='md:flex justify-center p-8 gap-6'>
-                <img className='w-[520px] h-auto object-contain'  src={bannerimg} alt="" />
-                <img className='w-[520px] md:invisible lg:visible h-auto object-contain' src={bannerimg} alt="" />
+            <div className='flex justify-center p-8 gap-6 '>
+                <img className='max-w-100%  hidden overflow-hidden md:block'  src={bannerimg} alt="" />
+                <img className='max-w-100% block   overflow-hidden' src={bannerimg} alt="" />
             </div>
           </div>
         </div>

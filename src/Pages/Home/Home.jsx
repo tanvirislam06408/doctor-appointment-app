@@ -7,8 +7,10 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <DocCard></DocCard>
+          <div>
+              <DocCard></DocCard>
             <CompleteHook></CompleteHook>
+          </div>
         </div>
     );
 };
